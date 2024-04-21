@@ -1,0 +1,42 @@
+.dropdown {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 100%;
+    img {
+        position: absolute;
+        left: 90%;
+        top: 54%;
+        transform: rotate(0deg);
+        transition: transform .3s ease-in-out;
+    }
+}
+
+.rotate {
+    transform: rotate(180deg) !important;
+}
+
+.options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-secondary-color);
+    border-top: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px var(--shadow-main-color);
+}
+
+.input {
+    cursor: pointer;
+}
+
+.option {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: var(--border-input-color);
+}

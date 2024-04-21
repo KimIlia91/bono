@@ -1,0 +1,35 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    border-radius: 50px;
+    padding: 50px;
+    background-color: var(--bg-secondary-color);
+    max-width: 428px;
+    min-height: 340px;
+    input {
+        padding: 11px 16px;
+        background-color: var(--bg-input-color);
+        border-radius: 16px;
+        border: 1px solid var(--border-input-color);
+        font-family: var(--font-comfortaa);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0%;
+    }
+    label {
+        font-family: var(--font-gotham);
+        color: var(--text-secondary-color);
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0%;
+    }
+}
+
+.message {
+    color: green;
+    text-align: center;
+}

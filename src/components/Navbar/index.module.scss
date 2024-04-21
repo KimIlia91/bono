@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    padding: 24px 0;
+    justify-content: space-between;
+    align-items:center;
+    ul {
+        display: flex;
+        gap: 42px;
+        a {
+            color: var(--text-main-color);
+            font-family: var(--font-gotham);
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            &:hover {
+                text-decoration: underline;
+            }
+            @media screen and (max-width: 1024px) {
+                font-size: 16px;
+            }
+        }
+        @media screen and (max-width: 1024px) {
+            gap: 15px;
+        }
+    }
+}

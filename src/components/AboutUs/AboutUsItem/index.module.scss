@@ -1,0 +1,9 @@
+.card {
+    p {
+        margin-top: 12px;
+    }
+    &__wrapper {
+        display: flex;
+        gap: 8px;
+    }
+}

@@ -1,0 +1,55 @@
+:root {
+  --text-main-color: #FFFFFF;
+  --text-secondary-color: rgba(255, 255, 255, 0.8);
+  --text-brown-color: rgb(193, 157, 109);
+  --text-input-color: rgba(255, 255, 255, 0.8);
+
+  --border-footer-color: rgba(255, 255, 255, 0.25);
+  --border-button-header-color: rgba(255, 255, 255, 0.8);
+
+  --bg-main-color: rgb(17, 17, 17);
+  --bg-secondary-color: rgb(24, 24, 24);
+  --bg-footer-color: rgb(20, 18, 23);
+  --bg-input-color: rgb(40, 40, 40);
+
+  --bg-button-color: rgb(40, 40, 40);
+  --bg-button-hover-color: rgb(94, 94, 94);
+  --bg-button-active-color: rgb(30, 30, 30);
+  --bg-button-nav-color: rgba(255, 255, 255, 0.5);
+  --bg-button-nav-active-color: rgba(255, 255, 255);
+  --bg-button-hero-color: rgba(255, 255, 255, 0.6);
+
+  --shadow-main-color: rgb(90, 89, 89);
+
+  --border-input-color: rgba(255, 255, 255, 0.18);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--bg-main-color);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}

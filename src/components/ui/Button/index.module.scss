@@ -1,0 +1,33 @@
+.button {
+    padding: 19px 34px;
+    align-items: center;
+    margin-top: 20px;
+    background-color: var(--bg-button-color);
+    border-radius: 500px;
+    border: none;
+    font-family: var(--font-gotham);
+    color: var(--text-main-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    box-shadow: 0px 0px 0px transparent;
+    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 0px 0px 6px var(--border-input-color);
+        background-color: var(--bg-button-hover-color);
+    }
+    &:active {
+        background-color: var(--bg-button-active-color);
+    }
+    &:disabled {
+        opacity: .7;
+        cursor: not-allowed;
+        &:hover, &:active {
+            box-shadow: none;
+            background-color: var(--bg-button-color);
+        }
+    }
+}

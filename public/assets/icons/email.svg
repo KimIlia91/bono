@@ -1,0 +1,14 @@
+<svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip2_171">
+			<rect id="icons/Email/Line" width="20.000000" height="20.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip2_171)">
+		<path id="Shape" d="M16.66 4.16L3.33 4.16C2.87 4.16 2.5 4.53 2.5 5L2.5 15C2.5 15.46 2.87 15.83 3.33 15.83L16.66 15.83C17.12 15.83 17.5 15.46 17.5 15L17.5 5C17.5 4.53 17.12 4.16 16.66 4.16ZM3.33 2.5C1.95 2.5 0.83 3.61 0.83 5L0.83 15C0.83 16.38 1.95 17.5 3.33 17.5L16.66 17.5C18.04 17.5 19.16 16.38 19.16 15L19.16 5C19.16 3.61 18.04 2.5 16.66 2.5L3.33 2.5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Shape" d="M4.35 6.13C4.65 5.77 5.17 5.73 5.53 6.02L9.46 9.3C9.77 9.56 10.22 9.56 10.53 9.3L14.46 6.02C14.82 5.73 15.34 5.77 15.64 6.13C15.93 6.48 15.88 7.01 15.53 7.3L11.6 10.58C10.67 11.35 9.32 11.35 8.39 10.58L4.46 7.3C4.11 7.01 4.06 6.48 4.35 6.13Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>
