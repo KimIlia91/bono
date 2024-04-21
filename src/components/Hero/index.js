@@ -33,6 +33,7 @@ const Hero = ({ images }) => {
             key={`slide-${index}`}
             src={image}
             className={classes.hero__slide}
+            loading="eager"
             style={{ translate: `${-100 * imageIndex}%`}}
           />
         ))}
