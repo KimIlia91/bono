@@ -31,4 +31,35 @@
         height: 400px;
         object-fit: cover;
     }
+    &__titleWrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px; 
+        align-items: center; 
+        justify-content: center;
+        margin-bottom: 40px;
+        h1 {
+            @media screen and (max-width: 768px) {
+                order: 1;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            width: 400px;
+            margin: 0 auto 40px auto;
+        }
+        @media screen and (max-width: 480px) {
+            width: 250px;
+            gap: 20px;
+        }
+    }
+    &__prevBtn {
+        @media screen and (max-width: 768px) {
+            order: 2;
+        }
+    }
+    &__nextBtn {
+        @media screen and (max-width: 768px) {
+            order: 3;
+        }
+    }
 }

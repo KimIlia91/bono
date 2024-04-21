@@ -27,7 +27,7 @@ const Gallery = () => {
 
   return (
     <div className={classes.gallery}>
-      <div style={{ display: 'flex', gap: '50px', alignItems: 'center', justifyContent: 'center', marginBottom: '40px' }}>
+      <div className={classes.gallery__titleWrapper}>
         <button className={classes.gallery__prevBtn} onClick={onPrevImage}>
           <Image src='/assets/row-left.svg' alt='row-left' width={20} height={33} />
         </button>
