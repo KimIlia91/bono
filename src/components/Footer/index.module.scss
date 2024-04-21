@@ -14,7 +14,7 @@
         flex-wrap: wrap;
         gap: 40px;
         justify-content: space-around;
-        padding-bottom: 50px;
+        padding: 0 20px 50px 20px; 
         margin: 0 auto;
         max-width: 1440px;
     }
@@ -48,14 +48,21 @@
         border-top: 1px solid var(--border-footer-color);
         &__wrapper {
             display: flex;
+            flex-wrap: wrap;
+            padding-left: 20px;
             gap: 50px;
+            width: 100%;
             max-width: 1440px;
             margin: 0 auto;
-            padding-left: 60px;
             span {
                 font-family: var(--font-inter);
                 font-size: 12px;
                 line-height: 16px;
+            }
+            @media screen and (max-width: 480px) {
+                flex-direction: column-reverse;
+                align-items: center;
+                gap: 10px;
             }
         }
         ul {
