@@ -58,7 +58,6 @@ export default function Home() {
       </section>
       <div className={classes.mainPage__secodary}>
         <section id='gallery' className={classes.mainPage_paddingY100}>
-          <h2 className={classes.mainPage__subTitle}>Фотогалерея</h2>
           <Gallery />
         </section>
         <section className={`${classes.mainPage__video} ${classes.mainPage_paddingY150}`}>

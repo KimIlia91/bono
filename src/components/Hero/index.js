@@ -45,13 +45,13 @@ const Hero = ({ images }) => {
           <div className={classes.hero__textWrapper}>
             <button
               onClick={showPrevImage}
-              className={`${classes.hero__btn} ${classes.hero__prevtBtn}`}
+              className={classes.hero__btn}
             >
               <Image src='/assets/row-left.svg' alt='row-left' width={40} height={66} />
             </button>
             <div className={classes.hero__text}>
               <p>Выделяесь среди других</p>
-              <h1>bono - Коктейльный бар и ресторан  приглашает к себе </h1>
+              <h1><span>bono -</span> Коктейльный бар и ресторан  приглашает к себе </h1>
               <Link href='/#reserve' className={classes.hero__text__btn}>Забронировать стол</Link>
               <div className={classes.hero__navBtnWrapper}>
                 {images.map((_, index) => (
@@ -65,7 +65,7 @@ const Hero = ({ images }) => {
             </div>
             <button
               onClick={showNextImage} 
-              className={`${classes.hero__btn} ${classes.hero__nextBtn}`}
+              className={classes.hero__btn}
             >
               <Image src='/assets/row-right.svg' alt='right-left' width={40} height={66} />
             </button>

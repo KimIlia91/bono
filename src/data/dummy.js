@@ -61,3 +61,11 @@ export const heroImages =
         '/assets/backgrounds/bg-video.png', 
         '/assets/backgrounds/bg-contact-form.png'
     ]
+
+export const galleryImages = 
+[
+    '/assets/gallery/gallery-first-img.png',
+    '/assets/gallery/gallery-second-img.png', 
+    '/assets/gallery/gallery-third-img.png',
+    '/assets/gallery/gallery-fourth-img.png',
+]
