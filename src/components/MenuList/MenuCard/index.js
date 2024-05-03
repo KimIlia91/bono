@@ -10,7 +10,7 @@ const MenuCard = ({
     <li className={classes.menu__card}>
       <Image
         src={imageUrl}
-        alt={title}
+        alt={`menu image`}
         width={165}
         height={165}
       />

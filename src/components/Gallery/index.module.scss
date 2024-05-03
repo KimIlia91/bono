@@ -4,6 +4,8 @@
     margin: 0 auto;
     &__prevBtn,
     &__nextBtn {
+        display: flex;
+        justify-content: center;
         border: none;
         background: none;
         cursor: pointer;

@@ -29,11 +29,14 @@ const Hero = ({ images }) => {
     <div className={classes.hero}>
       <div className={`${classes.hero__slideWrapper}`}>
         {images.map((image, index) => (
-          <img
+          <Image
             key={`slide-${index}`}
             src={image}
+            alt='hero image'
+            sizes='100vw'
+            fill
+            priority
             className={classes.hero__slide}
-            loading="eager"
             style={{ translate: `${-100 * imageIndex}%`}}
           />
         ))}
@@ -47,6 +50,7 @@ const Hero = ({ images }) => {
             <button
               onClick={showPrevImage}
               className={classes.hero__btn}
+              aria-label="navigation button"
             >
               <Image src='/assets/row-left.svg' alt='row-left' width={40} height={66} />
             </button>
