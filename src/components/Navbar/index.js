@@ -8,21 +8,13 @@ import classes from './index.module.scss'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
-  const smoothScroll = (target) => {
-    const element = document.querySelector(target);
-    if (element) {
-      window.scrollTo({
-        top: element.offsetTop,
-        behavior: 'smooth'
-      });
-    }
-  }
-
   const onOpenMenu = () => {
+    document.documentElement.style.overflow = 'hidden';
     setIsOpen(true)
   }
 
   const onCloseMenu = () => {
+    document.documentElement.style.overflow = 'auto'
     setIsOpen(false)
   }
 
